@@ -23,7 +23,7 @@ export const projects: Project[] = [
   {
     id: 'CLI-portfolio',
     name: 'CLI Portfolio',
-    description: ' tip: project_id is "CLI-portfolio" Interactive terminal-themed portfolio website',
+    description: ' Interactive terminal-themed portfolio website',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Web Audio API'],
     github: 'https://github.com/user/terminal-portfolio',
     demo: 'https://dezmilscliportfolio.netlify.app',
@@ -44,7 +44,7 @@ export const projects: Project[] = [
   {
     id: 'ScoreYetu',
     name: 'ScoreYetu Sports Management System',
-    description: 'tip: Project_ID is "ScoreYetu" - Unified platform for managing sports leagues and tournaments in local High Schools',
+    description: ' Unified platform for managing sports leagues and tournaments in local High Schools',
     technologies: ['vite', 'Express js', 'React', 'Mongo DB', 'Node js'],
     github: 'https://github.com/Dezmils-Tech-Company/scoreYetuFrontend.git',
     demo: 'https://scoreyetu.netlify.app',
@@ -65,7 +65,7 @@ export const projects: Project[] = [
   {
     id: 'Bitvestor',
     name: 'Bitvestor Sacco Analytics Dashboard ',
-    description: 'Tip: Project_ID is "Bitvestor" - A sacco analytics dashboard for investment insights and investment plans',
+    description: ' A sacco analytics dashboard for investment insights and investment plans',
     technologies: ['React.js', 'Express.js', 'Node.js', 'CSS', 'MongoDB'],
     github: 'https://github.com/Dezmils-Tech-Company/Bitvest-client.git',
     demo: 'https://bit-vestor-investments.netlify.app',
@@ -85,8 +85,8 @@ export const projects: Project[] = [
   },
   {
     id: 'mucisa',
-    name: 'CMUCISA Organization Website',
-    description: 'tip: Project_ID is "mucisa"....This Student-led organization website for Maseno University students',
+    name: 'MUCISA Organization Website',
+    description: 'This Student-led organization website for Maseno University students',
     technologies: ['React', 'express.js', 'node.js', 'css', 'MongoDB'],
     github: 'https://github.com/Dezmils-Tech-Company/mucisaFrontend.git',
     demo: 'https://mucisa.netlify.app',
