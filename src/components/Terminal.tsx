@@ -140,9 +140,9 @@ export const Terminal: React.FC<TerminalProps> = ({ onCommand, output, isProcess
             {soundEnabled ? <Volume2 size={14} /> : <VolumeX size={14} />}
           </button>
           <div className="flex space-x-1">
-            <div className="w-3 h-3 rounded-full bg-red-500"></div>
-            <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-            <div className="w-3 h-3 rounded-full bg-green-500"></div>
+            <div className="w-3 h-3 rounded-full bg-red-600"></div>
+            <div className="w-3 h-3 rounded-full bg-yellow-600"></div>
+            <div className="w-3 h-3 rounded-full bg-green-600"></div>
           </div>
         </div>
       </div>

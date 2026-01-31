@@ -162,7 +162,7 @@ export const Contact: React.FC = () => {
                 className="flex items-center space-x-3 p-2 hover:bg-terminal-hover rounded transition-colors"
               >
                 <Github size={18} className="text-terminal-accent" />
-                <span className="text-terminal-text">github.com/username</span>
+                <span className="text-terminal-text">github.com/username:</span>
               </a>
               <a 
                 href="https://www.linkedin.com/in/ezra-ndege-578906317" 
