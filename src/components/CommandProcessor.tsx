@@ -107,12 +107,12 @@ export const CommandProcessor: React.FC<CommandProcessorProps> = ({
       case 'exit':
         return (
           <div className="text-terminal-warning">
-            Logging out... Connection to aisurf3r@portfolio closed.
+            Logging out... Connection to ndegeezra.dezmils@portfolio closed.
           </div>
         );
         
       case 'pwd':
-        return <div>/home/aisurf3r/portfolio</div>;
+        return <div>/home/ndegeezra/portfolio</div>;
         
       case 'date':
         return <div>{new Date().toLocaleString()}</div>;
@@ -131,7 +131,7 @@ export const CommandProcessor: React.FC<CommandProcessorProps> = ({
   return (
     <div className="command-output">
       <div className="command-line text-terminal-muted mb-2">
-        <span className="text-terminal-accent">aisurf3r@portfolio:~$</span> {command} {args.join(' ')}
+        <span className="text-terminal-accent">ndegeezra.dezmils:~$</span> {command} {args.join(' ')}
       </div>
       {renderCommand()}
     </div>

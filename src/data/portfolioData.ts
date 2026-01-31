@@ -26,7 +26,7 @@ export const projects: Project[] = [
     description: ' tip: project_id is "CLI-portfolio" Interactive terminal-themed portfolio website',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Web Audio API'],
     github: 'https://github.com/user/terminal-portfolio',
-    demo: 'https://terminal-portfolio.dev',
+    demo: 'https://dezmilscliportfolio.netlify.app',
     image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg',
     details: `A fully interactive terminal-themed portfolio website featuring:
     

@@ -177,7 +177,7 @@ export const Terminal: React.FC<TerminalProps> = ({ onCommand, output, isProcess
       {/* Terminal Input - Now positioned above footer */}
       <form onSubmit={handleSubmit} className="terminal-input p-4 border-t border-terminal-border"> 
         <div className="flex items-center space-x-2">
-          <span className="text-terminal-accent flex-shrink-0">aisurf3r@portfolio:~$</span>
+          <span className="text-terminal-accent flex-shrink-0">ndegeezra.dezmils:~$</span>
           <ChevronRight size={16} className="text-terminal-accent flex-shrink-0" />
           <input
             ref={inputRef}
