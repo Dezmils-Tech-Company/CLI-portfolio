@@ -108,13 +108,23 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skill[] = [
+ {
+  category: 'Machine Learning & AI',
+  items: [
+    { name: 'Natural Language Processing (NLP)', level: 67, icon: '💬' },
+    { name: 'Automatic Speech Recognition (ASR)', level: 61, icon: '🎙️' },
+    { name: 'Computer Vision', level: 68, icon: '👁️' },
+    { name: 'Neural Networks', level: 55, icon: '🧠' },
+    { name: 'Reinforcement Learning', level: 50, icon: '🎮' }
+  ]
+},
   {
     category: 'Frontend',
     items: [
       { name: 'React', level: 95, icon: '⚛️' },
-      { name: 'TypeScript', level: 50, icon: '📘' },
+      { name: 'TypeScript', level: 75, icon: '📘' },
       { name: 'Vanilla.js', level: 85, icon: '💚' },
-      { name: 'CSS/SCSS', level: 88, icon: '🎨' },
+      { name: 'vite.js', level: 88, icon: '🎨' },
       { name: 'Tailwind CSS', level: 92, icon: '🌊' }
     ]
   },

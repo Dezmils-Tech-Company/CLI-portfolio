@@ -6,7 +6,7 @@ export const Skills: React.FC = () => {
     if (level >= 90) return 'bg-green-500';
     if (level >= 80) return 'bg-yellow-500';
     if (level >= 70) return 'bg-orange-500';
-    return 'bg-red-500';
+    return 'bg-cyan-500';
   };
 
   const getSkillLevel = (level: number) => {
@@ -35,6 +35,7 @@ export const Skills: React.FC = () => {
                 {category.category === 'Backend' && '⚙️'}
                 {category.category === 'DevOps' && '🚀'}
                 {category.category === 'Tools' && '🛠️'}
+                {category.category === 'Machine Learning & AI' && '📊'}
               </span>
               {category.category}
             </h3>
