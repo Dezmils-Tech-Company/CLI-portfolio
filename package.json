@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "postinstall": "chmod +x node_modules/.bin/vite",
     "dev": "vite",
     "prebuild": "ls -la node_modules/.bin/vite",
-    "build": "vite build",
+    "build": "npm exec vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
